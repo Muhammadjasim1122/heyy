@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/viewholder"
+    android:layout_margin="10dp"
+    app:cardElevation="3dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:id="@+id/brandname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Apple"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/pic"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/apple_logo__1_"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/brandname"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/rates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="422.4"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/brandname"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/graphwave"
+            app:layout_constraintTop_toBottomOf="@+id/rates"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="39dp" />
+
+        <TextView
+            android:id="@+id/coinprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:text="122.53"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/pic1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/coinprice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="0.56%"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/coinprice"
+            app:layout_constraintTop_toBottomOf="@+id/pic1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

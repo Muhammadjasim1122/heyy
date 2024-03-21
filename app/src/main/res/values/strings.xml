@@ -1,0 +1,12 @@
+<resources>
+    <string name="investment">Smart investments </string>
+    <string name="investment1"> with city bank </string>
+    <string name="email"> Email </string>
+    <string name="pass"> Password </string>
+    <string name="registeration">Not registered yet?</string>
+    <string name="signup">Open a live account</string>
+    <string name="Getstart">Get start</string>
+    <string name="passwordOfEmail">Password</string>
+    <string name="gmail">johnwillison@gmail.com</string>
+    <string name="app_name">heyy</string>
+</resources>
