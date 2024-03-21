@@ -35,12 +35,6 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
 
-
-
-
-
-
-
 //    private void setVarible() {
 //        TextView next7daysBtn=findViewById(R.id.buttn);
 //        next7daysBtn.setOnClickListener(v -> startActivity(new Intent(page));

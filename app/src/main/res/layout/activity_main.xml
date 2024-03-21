@@ -19,7 +19,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             tools:ignore="ScrollViewSize">
-
             <TextView
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
@@ -90,6 +89,7 @@
 
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/startbtn"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
